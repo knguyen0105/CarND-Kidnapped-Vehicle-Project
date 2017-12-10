@@ -21,6 +21,7 @@ struct Particle {
 	std::vector<int> associations;
 	std::vector<double> sense_x;
 	std::vector<double> sense_y;
+
 };
 
 
@@ -29,8 +30,6 @@ class ParticleFilter {
 	
 	// Number of particles to draw
 	int num_particles; 
-	
-	
 	
 	// Flag, if filter is initialized
 	bool is_initialized;
@@ -115,6 +114,8 @@ public:
 	const bool initialized() const {
 		return is_initialized;
 	}
+
+	
 };
 
 

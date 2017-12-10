@@ -30,6 +30,7 @@ int main()
   uWS::Hub h;
 
   //Set up parameters here
+  
   double delta_t = 0.1; // Time elapsed between measurements [sec]
   double sensor_range = 50; // Sensor range [m]
 
